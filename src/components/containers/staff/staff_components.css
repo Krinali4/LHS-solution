@@ -1,0 +1,136 @@
+.rate_review_modal {
+  max-width: 1000px !important;
+}
+
+.rate_reviw_modal_heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.rate_reviw_card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  min-height: 120px;
+}
+
+.rate_reviw_card .username {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+
+.rate_reviw_card .role {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+
+.rate_reviw_card .rate_reviw_card_ratings {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #009cde;
+}
+
+.rate_reviw_card_comment {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.rate_reviw_card_comment textarea {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.rate_reviw_card_comment textarea::placeholder {
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.rate_reviw_card_footer .btn {
+  background: #333333;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  width: 250px;
+  height: 45px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.rate_reviw_card_footer .post_review_btn {
+  background: #009cde;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.job_filter_background {
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  min-height: 40px;
+}
+
+.job_drodown {
+  height: 48px;
+  font-size: 16px;
+  line-height: 18px;
+  border-width: 0px !important;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+}
+
+.job_drodown_hospital {
+  border: 1px solid rgb(165, 165, 165) !important;
+  border-radius: 36px;
+  padding: 0px 18px;
+  margin-top: 16px;
+}
+
+.search_input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 90%;
+  padding-left: 16px;
+}
+
+.search_input::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}

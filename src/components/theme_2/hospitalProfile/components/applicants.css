@@ -1,0 +1,44 @@
+.headText{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+.applicants_main{
+    width: 100%;
+    min-width: 1070px;
+}
+.overFlowX{
+    overflow-x: auto;
+}
+.applicantsEachContent{
+    height: 64px;
+    line-height: 64px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+.applicantsEach{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+}
+.applicantsContent{
+    margin-top: -32px;
+}
+.applicantBadge{
+    background-color: #009CDE;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+.applicantClick{
+    cursor: pointer;
+}

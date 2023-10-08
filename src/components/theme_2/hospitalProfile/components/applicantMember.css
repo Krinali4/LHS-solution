@@ -1,0 +1,255 @@
+.row{
+    /* width: 100%; */
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.applicantMember{
+    margin-top: -40px;
+}
+.staffOneBorderNone{
+    border: none;
+    -webkit-box-shadow: none;
+}
+.process{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.reviewSVG{
+    float: left;
+}
+.review{
+    font-size: 16px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.reviewDate{
+    font-size: 9px;
+}
+.reviewProcess{
+    float: left;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.processEach{
+    cursor: pointer;
+}
+.interviewSVG{
+    margin-left: 25px
+}
+.arrow{
+    float: left;
+    margin-top: 10px;
+}
+.interviewSVG{
+    float: left;
+    margin-left: 20px;
+}
+.interviewText{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.display{
+    display: none;
+}
+@media all and (max-width: 575px){
+    .colReview{
+        margin-left: 30px;
+    }
+}
+.MSettingTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.MSettingDiv{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+.care{
+    font-size: 16px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.nursingDIV{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nursingRightDIV, .nursingLeftDIV, .insurance{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+}
+.nurseNum{
+    font-size: 12px;
+    margin-top: 42px;
+}
+.nurseName{
+    margin-top: 0px;
+}
+.nurseDate{
+    margin-top: 50px;
+}
+.padNoneLeft{
+    padding-left: 0px;
+}
+.padNoneRight{
+    padding-right: 0px;
+}
+@media all and (max-width: 768px){
+    .padNoneLeft, .padNoneRight{
+        padding: 0px;
+    }
+    .padNoneRight{
+        margin-top: 10px;
+    }
+}
+.viewResume{
+    width: fit-content;
+    background: #009CDE;
+    border: 1px solid #009CDE;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    color: #fff;
+}
+.videoCall, .chat, .voiceCall{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 5%);
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px;
+    color: #009CDE;
+    cursor: pointer;
+}
+.callChat{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.callRoom{
+    padding: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+.modalAvatar{
+    width: 75px !important;
+}
+.modalName{
+    font-size: 20px !important;
+}
+.modalNurse, .modalAvailable, .modalText, .modal_BTN_text{
+    font-size: 14px !important;
+}
+.modalBTN{
+    width: 180px !important;
+}
+.modalSVG{
+    margin-left: -25px !important;
+}
+.modal_middle_line{
+    position: relative;
+    top: -10px;
+}
+.modalRating{
+    margin-left: auto;
+    margin-right: auto;
+}
+.modalRatingMark{
+    float: left;
+}
+.modalMarks{
+    float: left;
+    margin-top: 19px;
+    margin-left: 12px;
+}
+.modalTotalMarks{
+    margin-top: 65px;
+    height: fit-content;
+    margin-left: 6px;
+}
+.modalMarkSVG{
+    margin-left: 10px;
+    float: left;
+}
+.modalView{
+    width: 100%;
+    padding: 0px !important;
+}
+.modalStaffOne{
+    border: 0px !important;
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    margin-top: 0px !important;
+}
+.modalSelect{
+    width: 100% !important;
+    margin: 0px !important;
+}
+.modalNameUnder{
+    margin-top: 40px;
+}
+.modalSelectBox{
+    margin: 0px !important;
+}
+.react-datepicker-popper{
+    margin-top: 16px !important;
+}
+.react-datepicker__triangle{
+    left: -10px !important;
+}
+.modalCalLeft{
+    margin: 0px !important;
+}
+@media all and (max-width: 768px){
+    .MLDIV, .MRDIV{
+        padding: 0px !important;
+    }
+    .MRDIV{
+        margin-top: 10px !important;
+    }
+}
+.modalBTNCHL{
+    background: #009CDE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: -10px;
+    cursor: pointer;
+}
+.modalBTNCHR{
+    background: #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+.modalLast{
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

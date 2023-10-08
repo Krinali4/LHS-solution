@@ -1,0 +1,19 @@
+.topLetter{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.bottomLetter{
+    font-size: 12px;
+    margin-top: -12px;
+}
+.nurseLicence{
+    width: 100px;
+    height: 63px;
+    border-radius: 5px;
+}
+.resumeDoc{
+    text-decoration: none;
+}
+.resumeDoc:hover{
+    color: #fff;
+}

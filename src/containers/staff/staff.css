@@ -1,0 +1,769 @@
+.web_cards_parent {
+  display: block;
+}
+
+.mobile_cards_parent {
+  display: none !important;
+}
+
+.jobs_count,
+.pagination_count {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.find_jobs_background hr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.find_jobs_card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  min-height: 140px;
+  cursor: pointer;
+}
+
+.find_jobs_card_non_background {
+  box-shadow: none !important;
+  border: none !important;
+  min-height: inherit !important;
+}
+
+.find_jobs_card .job_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  font-weight: 600;
+}
+
+.find_jobs_card .job_image {
+  width: 80px;
+  height: 80px;
+}
+
+.find_jobs_card .tick_icon {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: -14px;
+  bottom: -12px;
+  cursor: pointer;
+}
+
+.find_jobs_card .job_location,
+.job_date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.find_jobs_card .job_work_name {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find_jobs_card .job_work_name .name_tag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.permanent_position_btn button {
+  border: 1px solid #009cde;
+  border-radius: 100px;
+  background: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #009cde;
+  height: 32px;
+  justify-content: center;
+  min-width: 185px;
+}
+
+.reject_job_link {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #009cde;
+}
+
+.apply_job_btn {
+  min-width: 160px;
+  padding: 8px 24px;
+  background: #009cde;
+  border: 1px solid #009cde;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: pre;
+}
+
+.apply_job_btn_disabled {
+  background-color: rgb(164, 164, 164) !important;
+  border: 1px solid rgb(164, 164, 164) !important;
+}
+
+.job_rating_count {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #009cde;
+  width: 163px;
+  justify-content: space-between;
+}
+
+.rating_view_link {
+  font-size: 14px !important;
+  color: #009cde !important;
+  cursor: pointer;
+}
+
+.job_rating_count span {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  cursor: pointer;
+}
+
+.job_details_bk {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.go_back_link {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #009cde;
+}
+
+.hospital_name_link {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #959595;
+}
+
+.job_details_area_heading_names {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.job_details_area_box_card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.job_details_area_text .job_details_area_label_name {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.job_details_area_text .job_details_area_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  color: #333333;
+}
+
+.job_details_area_description {
+  line-height: 31px !important;
+  font-size: 16px !important;
+}
+
+.my_job_background {
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.my_job_background .main_tab.nav-tabs {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  width: 40%;
+  text-align: center;
+  padding: 0px;
+}
+
+.my_job_background .main_tab.nav-tabs .nav-link {
+  width: 50%;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.my_job_background .main_tab .nav-link.active {
+  background: #009cde;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.my_job_background .ongoing_job_text {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.my_job_background hr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.my_job_background .sub_tab .nav-link {
+  color: #333333;
+}
+
+.my_job_background .sub_tab .nav-link:hover {
+  border-color: #ffffff #ffffff #ffffff !important;
+}
+
+.my_job_background .sub_tab .nav-link.active {
+  border: none !important;
+  border-bottom: 3px solid #009cde !important;
+  color: #009cde;
+}
+
+.job_appliction_btn button {
+  width: 150px;
+  height: 40px;
+  background: #009cde;
+  border: 1px solid #009cde;
+  border-radius: 100px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.job_appliction_btn_grey button {
+  background-color: rgb(164, 164, 164);
+  border: 1px solid rgb(164, 164, 164);
+}
+
+/* .job_appliction_btn .completed {
+  background: #6fcf97;
+  border: 1px solid #6fcf97;
+} */
+
+.job_offer_details_background {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.job_offer_details_background hr {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.job_offer_details_background .job_offer_details_btn {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  min-height: 48px;
+  padding: 0px 24px;
+  cursor: pointer;
+}
+
+.job_offer_details_btn p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #009cde;
+}
+
+.job_offer_process_flow .job_details_area_box_card .active_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #009cde;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job_offer_process_flow .job_details_area_box_card .inactive_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(51, 51, 51, 0.1) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job_offer_process_flow .job_details_area_box_card .active_icon img,
+.job_offer_process_flow .job_details_area_box_card .inactive_icon img {
+  width: 18px;
+}
+
+.job_offer_process_flow .appication_status {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.job_offer_process_flow .appication_status_date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+/* Mobile-Section-Responsive-Worl */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .web_cards_parent {
+    display: none !important;
+  }
+
+  .mobile_cards_parent {
+    display: block !important;
+  }
+
+  .go_back_link,
+  .hospital_name_link {
+    font-size: 14px;
+  }
+
+  .job_details_bk {
+    padding-top: 0 !important;
+    padding-bottom: 15px !important;
+  }
+
+  .card_type_two {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .contract_period {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+  }
+
+  /* .job_details_area{
+    padding: 0 !important;
+  } */
+
+  .hide_in_mobile {
+    display: none;
+  }
+
+  .job_details_area_heading_names {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+
+  .job_details_area_label_name {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+  }
+
+  .job_details_area_name {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+
+  .mobile_location_job {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(51, 51, 51, 0.7);
+  }
+
+  .total_count_review {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+  }
+
+  .see_all_review {
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #009cde;
+    /* text-decoration: underline; */
+  }
+
+  .job_details_area_description {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+  }
+
+  .rate_reviw_modal_heading {
+    /* font-family: Avenir LT Std; */
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+
+  .job_rating_count {
+    /* font-family: Avenir LT Std; */
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+
+  .job_rating_count span {
+    font-weight: 350 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+
+  .modal_username {
+    /* font-family: Avenir LT Std; */
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+
+  .modal_role {
+    /* font-family: Avenir LT Std; */
+    font-weight: 350 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+
+  .rate_reviw_card_comment {
+    /* font-family: Avenir LT Std; */
+    font-style: normal;
+    font-weight: 350 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+
+  .job_image {
+    width: 35px;
+    height: 35px;
+  }
+
+  .modal_button {
+    width: 100% !important;
+  }
+
+  .show_in_mobile {
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .web_cards_parent {
+    display: none !important;
+  }
+
+  .mobile_cards_parent {
+    display: block !important;
+  }
+
+  /* .go_back_link, .hospital_name_link {
+    font-size: 14px;
+  } */
+
+  .job_details_bk {
+    /* padding-top: 0 !important; */
+    /* padding-bottom: 15px !important; */
+  }
+
+  .card_type_two {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .web_cards_parent {
+    display: block !important;
+  }
+
+  .mobile_cards_parent {
+    display: none !important;
+  }
+}
+
+.search_side_one,
+.search_side_two,
+.search_side_three {
+  height: 40px !important;
+  border: none;
+  border-radius: 0;
+}
+
+.search_side_one,
+.search_side_three {
+  background-color: #ffffff !important;
+}
+
+.search_side_one {
+  border-radius: 100px 0 0 100px;
+}
+
+.search_side_three {
+  width: 50px !important;
+  border-radius: 0 100px 100px 0;
+  border-left: 1px solid rgb(0, 0, 0) !important;
+}
+
+.search_side_two ::placeholder {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.card_type_one {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.mobile_cards_related_info {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.post_type {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.post_address {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.post_esd {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.mobile_perm_position {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #009cde;
+  border-radius: 100px;
+  background-color: white;
+
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #009cde;
+}
+
+.prime_healthcare {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.mobile_rating {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #009cde;
+}
+
+.mobile_reviews {
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.mobile_apply_job {
+  width: 100%;
+  height: 40px;
+
+  background: #009cde;
+  border: 1px solid #009cde;
+  border-radius: 100px;
+
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mobile_apply_job_disabled {
+  background-color: rgb(164, 164, 164);
+  border: 1px solid rgb(164, 164, 164);
+}
+
+.model_box {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.model_button {
+  width: 90%;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+
+  /* font-family: Avenir LT Std; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 11px;
+  line-height: 13px;
+  color: #333333;
+}
+
+.model_active {
+  background: #009cde;
+  border-radius: 100px;
+  color: white;
+}
+
+.model_post_btn {
+  width: 148px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+}
+
+.btn_cancel {
+  background: #333333;
+  color: white;
+}
+
+/* Mobile-Section-Responsive-Worl */

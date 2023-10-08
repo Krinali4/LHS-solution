@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../assets/fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/AvenirLTStd-Black.woff") format("woff"),
+    url("../assets/fonts/AvenirLTStd-Black.ttf") format("truetype"),
+    url("../assets/fonts/AvenirLTStd-Black.svg#Avenir") format("svg");
+}
+
+input:focus {
+  outline: none !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+select:focus {
+  outline: none !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.outer_container {
+  width: 100%;
+  padding: 0px 50px;
+  height: auto;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  height: auto;
+  padding-top: 1px;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+}
+
+@media all and (max-width: 768px) {
+  .outer_container {
+    padding: 0px 25px;
+  }
+
+  .header_logo {
+    width: 180px;
+  }
+}
+
+@media all and (max-width: 415px) {
+  .header_logo {
+    width: 155px;
+  }
+}
+
+/**********************************************
+**************** HEADER CSS *******************
+**********************************************/
+
+.header_container {
+  width: 100%;
+  height: 42px;
+  margin: 15px 0px;
+  position: relative;
+}
+
+/*********** LOG OUT VIEW ***********/
+
+.header_logo {
+  float: left;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.header_nav {
+  height: 42px;
+  border-radius: 60px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #333333;
+
+  float: right;
+  cursor: pointer;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+
+.header_nav_clicked {
+  background: #009cde;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tablet_btn {
+  display: none !important;
+  margin-top: -20px;
+}
+
+.text-wrap-value {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 419px;
+}
+
+@media all and (max-width: 1280px) {
+  .header_nav {
+    display: none;
+  }
+
+  .tablet_btn {
+    display: block !important;
+  }
+}
+
+/* CSS for the Dropdown Card header*/
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-card {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background-color: #fff;
+  /* Background color of the card */
+  border: 1px solid #ccc;
+  /* Border around the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Box shadow for a raised effect */
+  padding: 10px;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* @media (max-width: 1440px) {
+  .dropdown-card {
+    right: 38px;
+  }
+} */
+/* 
+@media (max-width: 990px) {
+  .dropdown-card {
+    right: 131px;
+  }
+} */
+
+.dropdown-card a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  /* Text color for links */
+}
+
+.dropdown-card a:hover {
+  background-color: #f0f0f0;
+  /* Background color on hover */
+}
+
+.header-close-btn {
+  margin-top: -6px;
+  margin-left: 87px;
+}
+
+/* Show the dropdown card when the parent is hovered */
+.dropdown-container:hover .dropdown-card {
+  display: block;
+}
+
+.dropdown-option {
+  display: none !important;
+}
+
+@media (max-width: 990px) {
+  .dropdown-option {
+    display: block !important;
+  }
+}
+
+
+
+.upload-image-grid div:nth-child(1) , .grid-three-upload div:nth-child(1) {
+  width: 100%;
+}
+.grid-four-upload div:nth-child(1) , .grid-four-upload div:nth-child(2) {
+  width: 48% !important;
+}
+.upload-image-grid div:nth-child(1) img , .grid-three-upload div:nth-child(1) img {
+  height: 320px !important;
+}
+.grid-four-upload div:nth-child(1) img {
+  height: auto !important;
+}
+
+.upload-image-grid div:nth-child(2) , .upload-image-grid div:nth-child(3) ,.grid-first-upload div:nth-child(1),.grid-first-upload div:nth-child(2)  {
+  width: 48%;
+  height: 220px !important;
+}
+.grid-three-upload div:nth-child(2) , .grid-three-upload div:nth-child(3) , .grid-three-upload div:nth-child(4) {
+  width: 31.33%;
+  height: 220px !important;
+}
+.grid-three-upload div:nth-child(n+2):nth-child(-n+4) , .grid-four-upload div:nth-child(n+3):nth-child(-n+5) {
+  width: 31.33%;
+  height: 220px !important;
+}
+
+.grid-five-upload div:nth-child(5) , .grid-five-upload div:nth-child(6) , .grid-five-upload div:nth-child(7) {
+  width: 50%; 
+  height: 220px !important;
+}

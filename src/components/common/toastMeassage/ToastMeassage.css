@@ -1,0 +1,22 @@
+.toast-success {
+  color: #067647; 
+  background-color: #e9fcf0;
+  height: 50px !important;
+  width:450px !important;
+  position: relative;
+  right: 50%;
+  border-radius: 12px;
+  border: 1px solid  #75E0A7;
+}
+
+
+.toast-error {
+  background-color: #ecc0bd; 
+  color: #e13939; 
+  height: 50px !important;
+  width:450px !important;
+  position: relative;
+  right: 50%;
+  border-radius: 12px;
+  border: 1px solid  #e13939;
+}

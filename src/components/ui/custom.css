@@ -1,0 +1,15 @@
+.long-text {
+    font-size: 16px; 
+    line-height: 1.5; /* Adjust line height for readability */
+    padding: 10px; /* Add padding for spacing */
+    max-width: 400px; /* Limit the width of the text to prevent excessive line lengths */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  /* Optionally, you can style the text further */
+  .long-text:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+  }

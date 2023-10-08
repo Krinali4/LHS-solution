@@ -1,0 +1,74 @@
+.CLData{
+    margin-top: -35px !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    float: left !important;
+}
+.CLength{
+    font-size: 13px;
+    font-weight: 600;
+}
+.CLday{
+    font-size: 12px;
+}
+.circle{
+    width: 35px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 13px;
+}
+.sendDiv{
+    display: flex;
+}
+.HSInfo{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.modalBadge{
+    height: 20px;
+    position: relative;
+    top: 73px;
+    left: -18px;
+}
+.sendStaff{
+    float: none !important;
+    font-size: 30px;
+    font-weight: 900;
+    color: #333333;
+}
+.sendMain{
+    margin-top: 0px !important;
+}
+.reviewDiv{
+    border-radius: 0px !important;
+    border: 0px !important;
+    box-shadow: 0px 0px 00px rgb(0 0 0 / 0%) !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.ratingStar{
+    padding: 30px 0px;
+}
+.commit{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+    padding: 20px;
+}
+#story{
+    width: 100%;
+    border: 0px;
+    outline: none;
+}
+.GiveReview{
+    float: left;
+    width: 40%;
+    margin-top: 18px;
+    background-color: #009CDE;
+    color: white;
+    -webkit-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 36px;
+    border-width: 0px;
+}

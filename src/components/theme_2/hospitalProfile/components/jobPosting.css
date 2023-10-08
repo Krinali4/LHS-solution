@@ -1,0 +1,47 @@
+.jobEdit, .jobDelete{
+    cursor: pointer;
+}
+.jobDelete{
+    margin-left: 25px;
+}
+.top_P{
+    background: #009CDE;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%);
+    border-radius: 100px;
+    padding: 13px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.top_Filter_SVG{
+    margin-left: -11px;
+}
+@media all and ( max-width: 1089px ){
+    .top_P{
+        font-size: 13px;
+    }
+}
+@media all and ( max-width: 799px ){
+    .top_P{
+        font-size: 12px;
+    }
+}
+@media all and ( max-width: 768px ){
+    .top_P{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+.applicants_header{
+    padding-bottom: 15px;
+}
+.deleteJob{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.deleteMain{
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    padding-top: 40px;
+}

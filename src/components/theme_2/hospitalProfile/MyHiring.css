@@ -1,0 +1,14 @@
+.myHiringHeadBorder{
+    width: 500px !important;
+}
+.myHiringHead{
+    width: 250px;
+    cursor: pointer;
+}
+@media all and (max-width: 666px){
+    .myHiringHeadBorder{
+        display: block !important;
+        width: 250px !important;
+        border-radius: 26px !important;
+    }
+}

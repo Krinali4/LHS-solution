@@ -1,0 +1,354 @@
+.top_NSF{
+    display: flex;
+    width: 100%;
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_NSearch, .top_S, .top_F{
+    position: relative;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 28.8px;
+}
+.top_NSearch{
+    display: flex;
+}
+.name{
+    height: 20px;
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search{
+    padding-left: 28.8px;
+    line-height: 48px;
+}
+.symbol{
+    height: 20px;
+    cursor: pointer;
+}
+.symbolFilter{
+    height: 20px;
+    cursor: pointer;
+}
+.select{
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%);
+    margin-top: 35px;
+}
+.selectSort{
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%);
+    margin-top: 49px;
+    z-index: 1;
+}
+.display-hidden{
+    display: none;
+}
+.searchKind, .sorting{
+    cursor: pointer;
+}
+.searchMark, .searchText{
+    margin-top: 15.5px !important;
+}
+.searchText::-webkit-input-placeholder {
+    font-size: 20px;
+}
+.sorting{
+    height: 20px;
+}
+.staffOne{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 0px;
+    padding: 15.6px 29.6px 15.6px 15px;
+}
+.avatar_img{
+    width: 100px;
+    margin-top: 17.9px;
+}
+.avatar_badge{
+    position: relative;
+    width: 20px;
+    float: right;
+    margin-top: -25px;
+    z-index: 1;
+}
+.username{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+.nurse, .available{
+    font-size: 14px;
+    line-height: 10px;
+}
+.position{
+    display: flex;
+}
+.position_text{
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 13px;
+}
+.available_BTN{
+    width: 200px;
+    height: 32px;
+    border: 1px solid #009CDE;
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+}
+.BTN{
+    margin-top: 14px;
+}
+.BTN_text{
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 20px;
+    color: #009CDE;
+    width: 170px;
+}
+.available_svg{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.review_info{
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.marks, .review{
+    line-height: 0px;
+}
+.marks{
+    color: #009CDE;
+    font-size: 21px;
+}
+.middle_line{
+    height: 54px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 14px;
+}
+.hospital_name_link {
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #959595;
+  }
+.reviewBTN{
+    height: 40px;
+    width: 144px;
+    color: #fff;
+    background: #009CDE;
+    border: 1px solid #009CDE;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.reviewBTN_underline{
+    background-color: #fff !important;
+    color: #009CDE !important;
+}
+
+.marginLeft{
+    margin-left: 30px;
+}
+.mediaSelect{
+    z-index: 1;
+}
+@media all and (max-width:1280px){
+    .symbolFilter{
+        margin-left: -12px;
+    }
+}
+@media all and (max-width:769px){
+    .top_NSF{
+        display: block !important;
+    }
+    .top_S, .top_F{
+        margin-top: 20px;
+    }
+    .selectSortAfter{
+        position: relative;
+        top: 7px;
+    }
+    .available_BTNs{
+        width: 90%;
+    }
+    .marginLeft{
+        width: 40%;
+    }
+}
+@media all and (max-width:663px){
+    .nurse{
+        line-height: 20px;
+    }
+    .available{
+        line-height: 20px;
+    }
+}
+@media all and (max-width:1354px){
+    .staffOne{
+        display: block;
+    }
+    .staffOneData{
+        width: 100%;
+    }
+}
+.closeReview{
+    margin-left: auto !important;
+    margin-right: auto;
+    height: 60px !important;
+}
+.reviewSvg, .reviewEach, .reviewMark{
+    float: right;
+}
+.reviewStaff{
+    float: left;
+}
+.reviewMark{
+    padding-left: 10px;
+    margin-top: 5px;
+    color: #009CDE;
+}
+.reviewEach{
+    padding-left: 30px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.reviewSvg{
+    padding-right: 7px;
+}
+.mainView{
+    height: 100%;
+    max-height: 747px;
+    margin-top: 50px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 6.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #009CDE;
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #009CDE;
+  }
+.ViewOne{
+    width: 98%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 24px;
+    padding: 20.8px 42.2px 24.4px 24px;
+}
+.ssu2_modal2{
+    width: 80%;
+    min-width: 250px;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    border-radius: 7px;
+    padding: 36px min(36px, 8%)!important;
+}
+.HospitalData, .HospitalMark{
+    display: flex;
+}
+.HospitalData{
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.HospitalInfo{
+    margin-left: -350px;
+}
+.hospitalName{
+    font-weight: 600;
+}
+.hospitalCity{
+    font-size: 12px;
+}
+.HospitalMark{
+    position: relative;
+    top: -10px;
+}
+.reviewContent{
+    margin-top: 18px;
+}
+.reviewContent p{
+    font-size: 18px;
+}
+@media all and (max-width:993px){
+    .HospitalInfo{
+        margin-left: 0px;
+    }
+}
+@media all and (max-width:457px){
+    .reviewSvghidden{
+        display: none;
+    }
+}
+@media all and (max-width:417px){
+    .reviewMarkhidden{
+        display: none;
+    }
+}
+.selectname{
+    border: 0px;
+    margin-top: -7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.selectname:after{
+    outline: 0px;
+}
+.selectsorting{
+    border: 0px;
+    margin-top: 7px;
+    margin-left: -7px;
+}
+.searchResultNone{
+    margin: 30px auto;
+    width: fit-content;
+}
+@media all and (max-width: 1354px){
+    .staffOne{
+        position: relative;
+        top: 20px;
+    }
+}
+.form-select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
