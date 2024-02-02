@@ -6,7 +6,7 @@ import { store, history, persistor } from "./store";
 import { Route, Redirect, Switch, BrowserRouter } from "react-router-dom";
 import { ConnectedRouter } from "react-router-redux";
 
-import { PersistGate } from "redux-persist/integration/react";
+import { PersistGate} from "redux-persist/integration/react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Theme_2 from "./components/theme_2";
